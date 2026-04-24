@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-import Recados from "./src/exercicio_aula5/exer5";
+import Recados from "./src/hooks/exercicio_aula5/exer5";
 
 
 
