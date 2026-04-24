@@ -1,15 +1,15 @@
 import { StyleSheet, Text, View } from "react-native";
-import Botao from "./src/props/desafio_PROPS";
+import Recados from "./src/exercicio_aula5/exer5";
 
 
 
 
-export default function App() {
+
+
+export default function app() {
   return (
-    <View>
-      <Botao titulo="Entrar" />
-      <Botao titulo="Sair" />
-      <Botao titulo="Cadastrar" />
+    <View style = {styles.container}>
+     <Recados/>
     </View>
   );
 }
