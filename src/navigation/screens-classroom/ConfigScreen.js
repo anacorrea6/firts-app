@@ -9,7 +9,7 @@ export default function ConfigScreen() {
     <View style={styles.container}>
       <Text style={styles.titulo}>Configuracoes</Text>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
