@@ -1,0 +1,15 @@
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { StackScreen } from "react-native-screens";
+import HomeScreen from "./screens-classroom/HomeScreen";
+import DetalheScreen from "./screens-classroom/DetalheScreen";
+
+const Stack = createNativeStackNavigator();
+
+export default function StackNavigation() {
+  return (
+    <Stack.Navigator initialRouteName="Home">
+      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Detalhe" component={DetalheScreen} />
+    </Stack.Navigator>
+  );
+}

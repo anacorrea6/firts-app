@@ -1,16 +1,12 @@
+import { NavigationContainer } from "@react-navigation/native";
 import { StyleSheet, Text, View } from "react-native";
-import Recados from "./src/hooks/exercicio_aula5/exer5";
-
-
-
-
-
+import StackNavigation from "./src/navigation/stackNavigation";
 
 export default function app() {
   return (
-    <View style = {styles.container}>
-     <Recados/>
-    </View>
+    <NavigationContainer>
+      <StackNavigation />
+    </NavigationContainer>
   );
 }
 const styles = StyleSheet.create({
