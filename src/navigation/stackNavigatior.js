@@ -5,7 +5,7 @@ import DetalheScreen from "./screens-classroom/DetalheScreen";
 
 const Stack = createNativeStackNavigator();
 
-export default function StackNavigation() {
+export default function StackNavigatior() {
   return (
     <Stack.Navigator initialRouteName="Home">
       <Stack.Screen name="Home" component={HomeScreen} />
